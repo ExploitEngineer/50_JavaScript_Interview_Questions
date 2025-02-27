@@ -2,3 +2,25 @@ Here is a collection of 50 JavaScript Questions, divided into groups of 10, base
 
 1. Basic Console Usage (10 Questions)
     1. Log your name and and favorite hobby to the console.
+    2. Perform and log the result of 45 * 2 - 10.
+    3. Use console.log() to display the current year.
+    4. Create two variables for first and last name. Concatenate and log them.
+    5. Track the value of a variable by logging it before and after updating.
+    6. Use console.error() to simulate and error message.
+    7. Log the square of the number 12 to the console.log.
+    8. Print the type of a variable holding the value true.
+    9. Create a variable holding your age and log whether it's greater than 10.
+    10. Log the result of 100 / 0 and observe the output.
+
+
+2. Variables and Data Types (10 Questoins)
+    11. Declare a variable using let and log its value.
+    12. create a constant to store the value of PI and log it.
+    13. Reassign a value to a variable declared with let and log the result.
+    14. check the type of null and log it.
+    15. Create a variable with a number as a string (e.g., "25") and log its type.
+    16. Use typeof to check the type of a boolean variable.
+    17. Create three variables of types string, number and boolean and log their values.
+    18. Declare a variable without assigning a value. Log its type.
+    19. Create a variable with undefined and log its type.
+    20. Use const to create an array. Try reassigning the array and observe the error.
