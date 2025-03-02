@@ -195,3 +195,65 @@ let obj = {
 for (let key in obj) {
     console.log(`${key} and value of obj is ${obj[key]}`);
 }
+
+
+// 31
+let movies = ["Money Heist", "3 Idiots", "kingdom of heaven", "Mr Robot", "Hacking"];
+movies.forEach(value => console.log(value));
+
+
+// 32
+console.log(movies[1]);
+
+
+// 33
+movies.unshift("a", "b");
+console.log(movies);
+
+
+// 34
+movies.pop();
+console.log(movies);
+
+
+// 35
+movies.splice(0, 3); // start from 0 delete 3 elements
+console.log(movies);
+
+
+// 36
+console.log(movies.indexOf("3 Idiots"));
+
+
+// 37
+console.log(movies.includes("Mr Robot"));
+
+
+// 38
+let arr2 = [1, 2, 3, 4, 5];
+let newarr = arr2.concat(movies);
+console.log(newarr);
+
+
+// 39
+let num1 = [5, 1, 2, 23, 343, 23, 3, 4];
+for (let j = 0; j < num1.length - 1; j++) {
+    for (let i = 0; i < num1.length - j - 1; i++) {
+        if (num1[i] > num1[i + 1]) {
+            let temp = num1[i];
+            num1[i] = num1[i + 1];
+            num1[i + 1] = temp;
+        }
+    }
+}
+console.log(num1);
+
+
+// 40
+let num5 = [1, 2, 3, 4, 5];
+let num6 = [...num5]; // first method
+let num7 = []; // second method
+num5.forEach((value) => {
+    num7.push(value);
+})
+console.log(num7);
