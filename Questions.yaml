@@ -50,3 +50,16 @@ Here is a collection of 50 JavaScript Questions, divided into groups of 10, base
     38. Combine two arrays using .concat().
     39. Sort an array of number in ascending order.
     40. Write a program that creates a copy of array without mutating the original.
+
+
+5. Functions (10 Questions)
+    1. Write a function to check that if the number is even or odd.
+    2. Create a function to calculate the area of the circle with a given radius.
+    3. Write a function that accepts an array and return the sum of its elements.
+    4. Create a function that checks that if a string starts with a specific character.
+    5. Write a function to find the maximum of two numbers.
+    6. Write a function that takes a number and return its factorial.
+    7. Write a function that accepts a string and return it reverse.
+    8. Create a function to find the largest number in an array.
+    9. Write a function that converts the string into kabab case.
+    10. Create a function that logs hello world every time it is called.

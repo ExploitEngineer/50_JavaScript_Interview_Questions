@@ -257,3 +257,81 @@ num5.forEach((value) => {
     num7.push(value);
 })
 console.log(num7);
+
+
+// 41
+function checkNum(elem) {
+    return elem % 2 === 0 ? console.log(`The ${elem} is Even`) : console.log(`The ${elem} is Odd`);
+}
+checkNum(4);
+
+
+// 42
+function checkRadius(r) {
+    return Math.round(Math.PI * r * r);
+}
+console.log(checkRadius(4));
+
+
+// 43
+function sumofarr(arr) {
+    let sum = 0;
+    arr.forEach((elem) => {
+        sum += elem;
+    })
+    return sum;
+}
+console.log(sumofarr([1, 2, 3, 4]));
+
+
+// 44
+function stringChecker(str, char) {
+    return str.toLowerCase().startsWith(char.toLowerCase());
+}
+console.log(stringChecker('helo', 'H'));
+
+
+// 45
+function maxNumChecker(a, b) {
+    return a > b ? a : a < b ? b : "equal";
+}
+console.log(maxNumChecker(20, 20));
+
+
+// 46
+function numFactorial(num) {
+    let fct = 1;
+    for (let i = 1; i <= num; i++) {
+        fct = fct * i;
+    }
+    return fct;
+}
+console.log(numFactorial(6));
+
+
+// 47
+function strReverser(str) {
+    return str.split("").reverse().join("");
+}
+console.log(strReverser('Helo'));
+
+
+// 48
+function arrLargeNum(arr) {
+    return arr.sort((a, b) => b - a)[0];
+}
+console.log(arrLargeNum([1, 203, 303, 30, 40]));
+
+
+// 49
+function kababCase(str) {
+    return str.split(" ").join("-");
+}
+console.log(kababCase("Hello how are you ?"));
+
+
+// 50
+function log() {
+     console.log("Hello World");
+}
+log();
